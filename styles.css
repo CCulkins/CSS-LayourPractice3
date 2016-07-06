@@ -91,63 +91,136 @@
 }
 
 @media only screen and (min-width: 401px) and (max-width: 1000px) {
-
-}
-
-
-
-
-/*
-  .linkNav {
-    background: navy;
-    float: left;
-    width: 40vw;
-    height: 2vh;
+  .wrap {
     display: inline-block;
-    background: lightblue;
-    color: white;
-    position: absolute;
-    top: 3vh;
-    font-size: 14px;
+    width: 100%;
   }
 
-  #link1, #link2, #link3 {
-    background: pink;
+  /*.name {
+    width: 45vw;
+  }*/
+
+  .siteName {
+    border: 3px solid red;
+    width: 45vw;
+    height: 7vw;
+    background: black;
     float: left;
-    padding-left: 2vw;
+    /*position: absolute;*/
+    margin: 1vh 1vw 0.5vh 1vw;
+  }
+
+  .linkNav {
+    /*background: white;*/
+    /*width: 80vw;*/
+    float: right;
+    display: inline-block;
+    margin-top: -3vh;
+    /*height: 3vh;*/
+  }
+
+  .link1, .link2, .link3 {
+    background: black;
+    width: 7vw;
+    height: 1vh;
+    float: right;
+    margin: 1vh 2vw 1vh 2vw;
   }
 
   .headerDiv {
-    background: lightblue;
-    font-size: 25px;
-    position: absolute;
-    top: 8vh;
+    float: left;
   }
 
-  .header {
-    background: silver;
-    margin-bottom: 1vh;
-  }
-
-  .textBlock {
-    border: 3px solid orange;
-    background: yellow;
-    position: absolute;
-    top: 18vh;
-  }
-
-  #box1 {
+  #text1, #text2 {
     background: black;
-    width: 95vw;
-    height: 10vh;
+    height: 2vh;
+    width: 80vw;
+    margin-left: 5vw;
+    float: left;
   }
 
   .textBlockContainer {
-    background: green;
-    width: 30vw;
-    height: 70%;
-    position: absolute;
-    top: 30vh;
-    left: 1vw;
-  }*/
+    float: left;
+  }
+
+  .textBlock {
+    width: 45vw;
+    height: 20vh;
+    margin-bottom: 4vh;
+    float: left;
+  }
+
+  .box {
+    background: black;
+    height: 15vh;
+    margin-bottom: 1vh;
+  }
+
+  .title {
+    background: black;
+    height: 1vh;
+    width: 25vw;
+    margin-bottom: 1vh;
+  }
+
+  .paragraph {
+    height: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  p {
+    font-size: 1.5vw;
+    color: black;
+  }
+}
+
+  @media only screen and (min-width: 1001px) {
+    .wrap {
+      display: inline-block;
+      width: 100%;
+    }
+
+    .siteName {
+      border: 3px solid red;
+      width: 45vw;
+      height: 7vw;
+      background: black;
+      float: left;
+      /*position: absolute;*/
+      margin: 1vh 1vw 0.5vh 1vw;
+    }
+
+    .linkNav {
+      /*background: white;*/
+      /*width: 80vw;*/
+      float: right;
+      display: inline-block;
+      margin-top: -3vh;
+      /*height: 3vh;*/
+    }
+
+    .link1, .link2, .link3 {
+      background: black;
+      width: 7vw;
+      height: 1vh;
+      float: right;
+      margin: 1vh 2vw 1vh 2vw;
+    }
+
+    .headerDiv {
+      float: left;
+    }
+
+    #text1, #text2 {
+      background: black;
+      height: 2vh;
+      width: 80vw;
+      margin-left: 5vw;
+      float: left;
+    }
+
+
+  }
+
 }
